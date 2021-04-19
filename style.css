@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-flow: column wrap;
+}
+
+.banner{
+  top: 0;
+}
+
+.hero-image {
+  /* Set a specific height */
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* Place text in the middle of the image */
+
+.search-container{
+  display:inline-block;
+  position:relative;
+}
