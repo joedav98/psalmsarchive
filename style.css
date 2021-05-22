@@ -1,9 +1,11 @@
 @media only screen and (max-width: 600px) {
   .banner {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 80%;
     flex-direction: column;
     flex-flow: column wrap;
+    justify-content: center;
   }
 
   .titlecontainer {
@@ -11,20 +13,13 @@
   }
 
   .hero-image{
-    height: 50%;
-    top: 0;
-    left: 0;
-    padding: 0;
+    width: 50%;
   }
 
 }
 
 * {
   font-family: 'Open Sans', sans-serif;
-}
-
-ul {
-  list-style-type: none;
 }
 
 h1, h2 {
@@ -50,7 +45,7 @@ h1, h2 {
 }
 
 .hero-image {
-  /* Set a specific height */
+  display: block;
   height: 100%;
   top: 0;
   left: 0;
