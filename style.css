@@ -1,3 +1,17 @@
+@media only screen and (min-width: 600px) {
+  .banner {
+    flex-direction: column;
+    flex-direction: column wrap;
+  }
+
+  .hero-image{
+    height: 50%;
+    top: 0;
+    left: 0;
+    padding: 0;
+  }
+}
+
 * {
   font-family: 'Open Sans', sans-serif;
 }
